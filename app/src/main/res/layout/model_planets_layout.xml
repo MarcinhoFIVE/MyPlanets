@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:toos="http://schemas.android.com/tools">
+
+        <ImageView
+            toos:src="@tools:sample/avatars"
+            android:id="@+id/ivPlanets"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginStart="54dp"
+            android:id="@+id/tvPlanets"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:text="Name of the Planet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp" />
+
+</androidx.cardview.widget.CardView>
