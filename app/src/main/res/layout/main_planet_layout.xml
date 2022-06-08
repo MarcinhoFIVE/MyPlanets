@@ -4,11 +4,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainPlanet">
 
     <ListView
         android:id="@+id/lvPlanets"
-        android:cacheColorHint="#00000000"
         tools:listitem="@layout/model_planets_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

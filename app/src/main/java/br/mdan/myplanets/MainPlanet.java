@@ -5,16 +5,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ListView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainPlanet extends AppCompatActivity {
 
     ListView listView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.main_planet_layout);
 
-        AdapterActivity adapter = new AdapterActivity(getApplicationContext());
+        AdapterPlanet adapter = new AdapterPlanet(getApplicationContext());
         listView = findViewById(R.id.lvPlanets);
         listView.setAdapter(adapter);
     }

@@ -9,14 +9,11 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class AdapterActivity extends BaseAdapter {
-
-    int[] photoPlanet = {R.drawable.sun, R.drawable.sun, R.drawable.sun};
-    String[] textPlanet = {"Teste", "Teste", "Teste"};
+public class AdapterPlanet extends BaseAdapter implements InterfacePlanet {
 
     private final Context context;
 
-    public AdapterActivity(Context applicationContext) {
+    public AdapterPlanet(Context applicationContext) {
         context = applicationContext;
     }
 
